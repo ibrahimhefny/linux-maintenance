@@ -1,0 +1,24 @@
+=== Maintenance Report ===
+Date: Tue Oct 28 02:17:43 PM EEST 2025
+---------------------------
+Disk Usage:
+Filesystem                 Size  Used Avail Use% Mounted on
+devtmpfs                   4.0M     0  4.0M   0% /dev
+tmpfs                      1.8G     0  1.8G   0% /dev/shm
+tmpfs                      725M  9.8M  715M   2% /run
+efivarfs                   256K   56K  196K  23% /sys/firmware/efi/efivars
+/dev/mapper/rhel_192-root  5.0G  100M  4.9G   2% /
+/dev/mapper/rhel_192-usr   5.0G  4.5G  522M  90% /usr
+/dev/mapper/rhel_192-tmp   2.0G   47M  1.9G   3% /tmp
+/dev/nvme0n1p2             448M  347M  102M  78% /boot
+/dev/mapper/rhel_192-home  5.0G  2.5G  2.6G  50% /home
+/dev/mapper/rhel_192-var    10G  311M  9.7G   4% /var
+/dev/mapper/rhel_192-opt   2.0G   47M  1.9G   3% /opt
+/dev/nvme0n1p1             511M  7.1M  504M   2% /boot/efi
+tmpfs                      363M  100K  363M   1% /run/user/1000
+/dev/sr0                    12G   12G     0 100% /run/media/devops/RHEL-9-6-0-BaseOS-x86_64
+
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:           3.5Gi       1.5Gi       1.7Gi        22Mi       642Mi       2.1Gi
+Swap:          8.0Gi          0B       8.0Gi
